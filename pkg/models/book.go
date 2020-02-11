@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/example/simple-REST/pkg/config"
+	"github.com/slashramin/crud-with-gplang/pkg/config"
 	"github.com/jinzhu/gorm"
 )
 

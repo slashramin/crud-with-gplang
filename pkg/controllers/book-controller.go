@@ -3,11 +3,11 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/slashramin/crud-with-gplang/tree/master/pkg/utils"
 	"github.com/gorilla/mux"
+	"github.com/slashramin/crud-with-gplang/pkg/models"
+	"github.com/slashramin/crud-with-gplang/pkg/utils"
 	"net/http"
 	"strconv"
-	"github.com/slashramin/crud-with-gplang/tree/master/pkg/models"
 )
 
 var NewBook models.Book

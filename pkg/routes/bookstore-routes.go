@@ -2,8 +2,8 @@
 package routes
 
 import (
-	"github.com/slashramin/crud-with-gplang/tree/master/pkg/controllers"
 	"github.com/gorilla/mux"
+	"github.com/slashramin/crud-with-gplang/pkg/controllers"
 )
 
 var RegisterBookStoreRoutes = func(router *mux.Router) {
