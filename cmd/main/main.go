@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/example/simple-REST/pkg/routes"
+	"github.com/slashramin/crud-with-gplang/tree/master/pkg/routes"
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

@@ -2,7 +2,7 @@
 package routes
 
 import (
-	"github.com/example/simple-REST/pkg/controllers"
+	"github.com/slashramin/crud-with-gplang/tree/master/pkg/controllers"
 	"github.com/gorilla/mux"
 )
 
