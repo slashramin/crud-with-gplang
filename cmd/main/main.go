@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"net/http"
-
 	"github.com/slashramin/crud-with-gplang/pkg/routes"
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"

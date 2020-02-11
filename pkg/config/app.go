@@ -11,7 +11,7 @@ var (
 
 func Connect() {
 	// Please define your user name and password for my sql.
-	d, err := gorm.Open("mysql", "root:root@/simplerest?charset=utf8&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "root:root@/test_api_golang?charset=utf8&parseTime=True&loc=Local")
 	if err != nil{
 		panic(err)
 	}
